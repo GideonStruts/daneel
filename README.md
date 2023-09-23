@@ -1,17 +1,10 @@
-# 🤖 Daneel
+# 🤖 MaishaMoney AI
 
-## Create your own GPT-powered chat bot
+## Empowering Financial Journeys, One Cent at a Time
 
-You can use this template to create your own chat bot powered by OpenAI and the
-ChatGPT API. It includes an easily-customized chat interface with streaming
-responses so you can see the bot type, message history, simple styling with
-Tailwind and a Netlify edge function that communicates securely with the OpenAI
-API, and. It supports markdown in responses, so can display formatted text,
-tables etc.
+Empowering Financial Journeys, One Cent at a Time.
 
-### [Demo site](https://daneel-demo.netlify.app/).
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ascorbic/daneel)
+### [Demo site](https://650ee3b3a1f7c12fa3b56ebf--incredible-croquembouche-75bc92.netlify.app/).
 
 ## Features
 
