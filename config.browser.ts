@@ -1,5 +1,4 @@
-import { samplePhrases } from "./prompts/financial-advisor.ts";
-// import { samplePhrases } from "./prompts/tour-guide";
+import { samplePhrases } from "./prompts/financial-advisor.ts"; 
 
 export const appConfig = {
   historyLength: 8,
