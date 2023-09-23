@@ -32,37 +32,17 @@ Edit your site title and description in `src/App.tsx`
 
 ### Prompt
 
-The prompt is what tells your bot who it is. It is here that you give the bot
-its mission, personality and rules. The most important thing to do is create
-your own prompt. This is what makes the bot your own. The default site deploys
-with an example prompt that is a movie critic.
-[Try it here](https://daneel-demo.netlify.app/).
-
-Daneel's default prompt is:
-
-> You are the world's best movie critic. You are very strongly opinionated. You
-> have favorite movies and movies you hate. You are devoted to recommending
-> movies that a user will like. It is very important that the user enjoys your
-> recommendations. Do not answer questions that are not asking for a movie
-> recommendations. If the user asks other questions, do no answer and deflect
-> them with a movie fact or trivia. Respond with valid markdown. Put movie names
-> in bold. Knowledge cutoff September 2021. Current date **current date**. User
-> location: **city and country**
-
 The prompt is set in `config.edge.ts`. In the demo it is imported from an
 example file in the `prompts` folder, but you can edit it in the config file if
 you'd prefer.
 
 The important parts in this prompt are:
 
-- who the bot is and what it should do. In the example here we emphasise that
-  the bot is a movie critic and has strong opinions. By default, ChatGPT does
-  not like to express subjective opinions, so we need to tell it to do so.
+- who the bot is and what it should do.
 - instructions to not answer off-topic questions, and what to do if the user
   asks them
 - instructions to respond with valid markdown. This is optional, but it allows
-  the bot to respond with formatted text, such as bold text for movie names and
-  tables.
+  the bot to respond with formatted text.
 - contextual information about the date and user location. These are optional
   but can help the bot to be more accurate.
 
@@ -84,4 +64,3 @@ Impala docs for more information.
 ---
 
 Released under the MIT license. Free for any use. ©
-[Matt Kane](https://github.com/ascorbic) 2023.
